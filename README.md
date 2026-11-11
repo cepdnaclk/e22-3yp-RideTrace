@@ -1,57 +1,25 @@
-___
-# DELETE THIS INSTRUCTIONS AND ADD AN INTRODUCTION ABOUT YOUR PROJECT
-___
+# RideTrace
 
-# eYY-3yp-project-template
+**A Modular IoT Telemetry, Safety and Emission Pre-Check Platform for Motorcycles**
 
-This is a sample repository you can use for your Embedded Systems project. Once you followed these instructions, remove the text and add a brief introduction to here.
+RideTrace is a low-cost, modular, phone-independent motorcycle safety and diagnostics platform developed for the **CO3060 Computer Systems Design Project (Team 14)** at the Department of Computer Engineering, University of Peradeniya.
 
-### Enable GitHub Pages
+Built around an **ESP32** base module with an integrated **4G/GNSS modem**, RideTrace tracks location and riding telemetry, detects risky riding and possible crashes on-device, and sends guardian alerts through the cloud without relying on the rider's phone. A plug-and-play expansion port supports optional add-ons—a handlebar **Monitor** and an **Emission Pre-Check** module—paired with a role-based mobile application and an administrative provisioning portal.
 
-You can put the things to be shown in GitHub pages into the _docs/_ folder. Both html and md file formats are supported. You need to go to settings and enable GitHub pages and select _main_ branch and _docs_ folder from the dropdowns, as shown in the below image.
+---
 
-![image](https://user-images.githubusercontent.com/11540782/98789936-028d3600-2429-11eb-84be-aaba665fdc75.png)
+## Team (Group 14)
 
-### Special Configurations
+| E-Number | Name | Email |
+| :--- | :--- | :--- |
+| E/22/054 | Danuja Chandrasena | e22054@eng.pdn.ac.lk |
+| E/22/205 | Ashen Kumarasinghe | e22205@eng.pdn.ac.lk |
+| E/22/378 | Kavindu Sooriyabandara | e22378@eng.pdn.ac.lk |
+| E/22/179 | Janith Kahagalla | e22179@eng.pdn.ac.lk |
 
-These projects will be automatically added into [https://projects.ce.pdn.ac.lk](). If you like to show more details about your project on this site, you can fill the parameters in the file, _/docs/index.json_
+---
 
-```
-{
-  "title": "This is the title of the project",
-  "team": [
-    {
-      "name": "Team Member Name 1",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 2",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 3",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    }
-  ],
-  "supervisors": [
-    {
-      "name": "Dr. Supervisor 1",
-      "email": "email@eng.pdn.ac.lk"
-    },
-    {
-      "name": "Supervisor 2",
-      "email": "email@eng.pdn.ac.lk"
-    }
-  ],
-  "tags": ["Web", "Embedded Systems"]
-}
-```
+## Links
 
-Once you filled this _index.json_ file, please verify the syntax is correct. (You can use [this](https://jsonlint.com/) tool).
-
-### Page Theme
-
-A custom theme integrated with this GitHub Page, which is based on [github.com/cepdnaclk/eYY-project-theme](https://github.com/cepdnaclk/eYY-project-theme). If you like to remove this default theme, you can remove the file, _docs/\_config.yml_ and use HTML based website.
+- [Project Webpage](https://cepdnaclk.github.io/e22-3yp-RideTrace/)
+- [Department of Computer Engineering, University of Peradeniya](http://www.ce.pdn.ac.lk/)
