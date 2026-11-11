@@ -1,0 +1,30 @@
+Category,Item Description,Item No,Qty,duino.lk Unit Price (LKR),Purpose in RideTrace,Source
+Need to Procure Outside,ESP32 38-Pin Type-C USB Development Board,Outside,1,1760.00,Main MCU board (Lab stock currently 0),Buy Outside (duino.lk)
+Need to Procure Outside,Hall Sensor Module 3144 LM393 Speed Detection,Outside,1,280.00,Direct wheel speed sensor,Buy Outside (duino.lk)
+Need to Procure Outside,Mini Air Pump MYP370 5VDC (2.2 LPM -58kPa),Outside,1,660.00,Gas sampling rig vacuum pump for emission pre-check,Buy Outside (duino.lk)
+Need to Procure Outside,Samsung EVO / Kingston MicroSD Card (8GB/16GB),Outside,1,1690.00,Storage card to insert into Item 17 SD module,Buy Outside (duino.lk)
+Need to Procure Outside,SIM7600CE / EC20 4G Development Board,Outside,1,11890.00,4G High-speed cellular modem for final prototype,Buy Outside (duino.lk)
+Need to Procure Outside,High-Range NDIR CO2 Sensor (0-20%),Outside,1,10000.00,Exhaust CO2 sensing (Optional - can use MQ sensors initially),Buy Outside (Import / Daraz)
+Available in ESCAL Lab,GY 521/ MPU6050 Accelerometer,73,1,720.00,Crash detection lean angle & braking (IMU),ESCAL Lab
+Available in ESCAL Lab,GY-NEO6MV2 NEO-6M Flight Controller GPS LED Module,44,1,1485.00,Live GPS location & speed tracking,ESCAL Lab
+Available in ESCAL Lab,GSM module SIM808A (GSM/GPRS + GPS),119,1,2450.00,Cellular SMS alerts & data link (2G Prototype),ESCAL Lab
+Available in ESCAL Lab,Waterproof Temperature Sensor Cable (DS18B20),60,1,290.00,Engine temperature monitoring,ESCAL Lab
+Available in ESCAL Lab,INTERFACING MICRO SD CARD MODULE,17,1,250.00,Offline black-box data logging,ESCAL Lab
+Available in ESCAL Lab,DS3231 real time clock module for arduino,3,1,450.00,Accurate timestamps for offline logging,ESCAL Lab
+Available in ESCAL Lab,0.96 inch OLED screen 12864 LCD display SSD1315 I2C,71,1,890.00,Handlebar monitor display,ESCAL Lab
+Available in ESCAL Lab,Active Buzzer Module,31,1,120.00,Overspeed and crash countdown alarm buzzer,ESCAL Lab
+Available in ESCAL Lab,Push Button/ thermester,150,2,50.00,"I'm OK" crash cancellation button,ESCAL Lab
+Available in ESCAL Lab,MQ-2/9 135 AIR QUALITY GAS SENSOR MODULE,26,2,525.00,Emission pre-check: CO (MQ-9) and HC/Smoke (MQ-2),ESCAL Lab
+Available in ESCAL Lab,BMEe 280 (Temperature Humidity Pressure),164,1,950.00,Gas sensor environmental compensation,ESCAL Lab
+Available in ESCAL Lab,16 BIT HIGH PRECISION AD/DC CONVERTER board (ADS1115),10,1,950.00,Analog gas sensor reading over I2C,ESCAL Lab
+Available in ESCAL Lab,IR Receivers/Sender,12,1,150.00,Optical smoke density / opacity measurement,ESCAL Lab
+Available in ESCAL Lab,TCA9548A 1-to-8 I2C Multiplexer Module,53,1,650.00,Plug-and-play I2C expansion bus,ESCAL Lab
+Available in ESCAL Lab,PCF 8574n PCF8574T I2C 8 Bit IO GPIO Expander,131,2,380.00,Add-on module hardware auto-detection ID,ESCAL Lab
+Available in ESCAL Lab,XL4015 5A DC-DC STEP DOWN ADJUSTABLE POWER SUPPLY,2,1,650.00,Bike 12V to 5V step-down buck converter,ESCAL Lab
+Available in ESCAL Lab,3.7V batteries 18650,117,2,600.00,Backup emergency Li-ion battery,ESCAL Lab
+Available in ESCAL Lab,ICSTORE 18650 Lithium Battery Holder Case 3.7V,98,1,150.00,Holder for 18650 backup battery,ESCAL Lab
+Available in ESCAL Lab,5V 1A Micro USB 18650 Battery Charging Module (TP4056),130,1,180.00,Li-ion backup charging & protection,ESCAL Lab
+Available in ESCAL Lab,Jst Zr Female Brass Terminal 6 Pin Connector,46,2,120.00,Waterproof plug-and-play module connectors,ESCAL Lab
+Available in ESCAL Lab,Bread Board,148,2,450.00,Hardware prototyping and testing,ESCAL Lab
+Available in ESCAL Lab,wires M-M (Jumper Wires),102,1 set,250.00,Circuit wiring and breadboard connections,ESCAL Lab
+Available in ESCAL Lab (Check Stock),ESP32 WIFI/BLUETOOTH WIRELESS Microcontroller,22,1,1760.00,Main Controller (Stock currently 0),ESCAL Lab
