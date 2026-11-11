@@ -1,0 +1,42 @@
+# Dependencies
+**/node_modules/
+
+# Environment variables & secrets (keep .env.example)
+.env
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+# Build outputs & caches
+**/dist/
+**/build/
+**/.expo/
+**/.expo-shared/
+**/.next/
+**/.pio/
+*.tsbuildinfo
+
+# Local runtime vault data (do not commit live credentials/local DB snapshots if sensitive)
+# Uncomment below if server/data/vault.json should stay untracked
+# admin_dashboard/server/data/vault.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
