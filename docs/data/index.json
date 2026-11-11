@@ -1,30 +1,34 @@
 {
-    "team": [
-        {
-            "name": "Team Member Name 1",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
-        },
-        {
-            "name": "Team Member Name 2",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
-        },
-        {
-            "name": "Team Member Name 3",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
-        }
-    ],
-    "supervisors": [
-        {
-            "name": "Dr. Supervisor 1",
-            "email": "email@eng.pdn.ac.lk"
-        },
-        {
-            "name": "Supervisor 2",
-            "email": "email@eng.pdn.ac.lk"
-        }
-    ],
-    "tags": ["Web", "Embedded Systems"]
+  "title": "RideTrace: A Modular IoT Telemetry, Safety and Emission Pre-Check Platform for Motorcycles",
+  "team": [
+    {
+      "name": "Danuja Chandrasena",
+      "email": "e22054@eng.pdn.ac.lk",
+      "eNumber": "E/22/054"
+    },
+    {
+      "name": "Ashen Kumarasinghe",
+      "email": "e22205@eng.pdn.ac.lk",
+      "eNumber": "E/22/205"
+    },
+    {
+      "name": "Kavindu Sooriyabandara",
+      "email": "e22378@eng.pdn.ac.lk",
+      "eNumber": "E/22/378"
+    },
+    {
+      "name": "Janith Kahagalla",
+      "email": "e22179@eng.pdn.ac.lk",
+      "eNumber": "E/22/179"
+    }
+  ],
+  "supervisors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "tags": ["IoT", "Embedded Systems", "Mobile App", "Web"],
+  "image": "cover_page.jpg",
+  "thumbnail": "thumbnail.jpg"
 }
