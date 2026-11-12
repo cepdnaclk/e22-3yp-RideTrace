@@ -50,26 +50,171 @@
       "createdAt": "2026-11-04T15:00:00.000Z",
       "updatedAt": "2026-11-05T07:08:24.284Z",
       "verifiedAt": "2026-11-05T07:08:24.284Z"
-    },
-    {
-      "serial": "RT-004",
-      "hardwarePin": "9052",
-      "bikeMake": "TVS",
-      "bikeModel": "Apache RTR 160 4V",
-      "engineCc": 159,
-      "firmwareVersion": "v1.2.5-ESP32",
-      "status": "UNASSIGNED",
-      "ownerName": null,
-      "ownerEmail": null,
-      "emergencyPhone": null,
-      "activationToken": null,
-      "tokenExpiresAt": null,
-      "createdAt": "2026-11-04T16:45:00.000Z",
-      "updatedAt": "2026-11-04T16:45:00.000Z",
-      "verifiedAt": null
     }
   ],
   "auditLogs": [
+    {
+      "id": "AUD-1029",
+      "timestamp": "2026-11-12T10:51:43.894Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "ADMIN_LOGIN",
+      "targetSerial": "SYSTEM",
+      "details": "Primary Administrator signed in to the portal.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1028",
+      "timestamp": "2026-11-12T10:39:04.717Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "MODULE_DELETED",
+      "targetSerial": "RT-004",
+      "details": "Permanently deleted hardware unit RT-004 from inventory and Firebase database.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1027",
+      "timestamp": "2026-11-12T10:35:56.945Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "CUSTOMER_ASSIGNED",
+      "targetSerial": "RT-004",
+      "details": "Assigned RT-004 to chandrasenadn@gmail.com (Danuja Nirodhana). Verification link dispatched.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1026",
+      "timestamp": "2026-11-12T10:35:41.579Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "MODULE_REGISTERED",
+      "targetSerial": "RT-004",
+      "details": "Registered hardware unit RT-004 (v1.2.5-ESP32) into stock.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1025",
+      "timestamp": "2026-11-12T10:35:37.280Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "MODULE_DELETED",
+      "targetSerial": "RT-004",
+      "details": "Permanently deleted hardware unit RT-004 from inventory and Firebase database.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1024",
+      "timestamp": "2026-11-12T10:34:13.413Z",
+      "actor": "chandrasenadn@gmail.com",
+      "action": "OWNERSHIP_VERIFIED",
+      "targetSerial": "RT-004",
+      "details": "Email verified by customer (chandrasenadn@gmail.com). Device RT-004 is now Active.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1023",
+      "timestamp": "2026-11-12T10:33:38.184Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "CUSTOMER_ASSIGNED",
+      "targetSerial": "RT-004",
+      "details": "Assigned RT-004 to chandrasenadn@gmail.com (Danuja Nirodhana). Verification link dispatched.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1022",
+      "timestamp": "2026-11-12T10:12:44.735Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "MODULE_DELETED",
+      "targetSerial": "RT-005",
+      "details": "Permanently deleted hardware unit RT-005 from inventory and Firebase database.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1021",
+      "timestamp": "2026-11-12T10:12:37.487Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "CUSTOMER_ASSIGNED",
+      "targetSerial": "RT-005",
+      "details": "Assigned RT-005 to chandrasenadn@gmail.com (Danuja Nirodhana). Verification link dispatched.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1020",
+      "timestamp": "2026-11-12T10:12:24.261Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "MODULE_REGISTERED",
+      "targetSerial": "RT-005",
+      "details": "Registered hardware unit RT-005 (v1.2.5-ESP32) into stock.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1019",
+      "timestamp": "2026-11-12T10:12:09.600Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "MODULE_DELETED",
+      "targetSerial": "RT-005",
+      "details": "Permanently deleted hardware unit RT-005 from inventory and Firebase database.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1018",
+      "timestamp": "2026-11-12T10:12:04.010Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "ADMIN_LOGIN",
+      "targetSerial": "SYSTEM",
+      "details": "Primary Administrator signed in to the portal.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1017",
+      "timestamp": "2026-11-12T10:09:34.228Z",
+      "actor": "operator@ridetrace.lk",
+      "action": "ADMIN_LOGIN",
+      "targetSerial": "SYSTEM",
+      "details": "Provisioning Operator signed in to the portal.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1016",
+      "timestamp": "2026-11-12T10:06:57.455Z",
+      "actor": "chandrasenadn@gmail.com",
+      "action": "OWNERSHIP_VERIFIED",
+      "targetSerial": "RT-005",
+      "details": "Email verified by customer (chandrasenadn@gmail.com). Device status set to Active.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1015",
+      "timestamp": "2026-11-12T10:06:46.468Z",
+      "actor": "operator@ridetrace.lk",
+      "action": "CUSTOMER_ASSIGNED",
+      "targetSerial": "RT-005",
+      "details": "Assigned RT-005 to chandrasenadn@gmail.com (Danuja Nirodhana). Verification link dispatched.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1014",
+      "timestamp": "2026-11-12T09:55:06.527Z",
+      "actor": "operator@ridetrace.lk",
+      "action": "ADMIN_LOGIN",
+      "targetSerial": "SYSTEM",
+      "details": "Provisioning Operator signed in to the portal.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1013",
+      "timestamp": "2026-11-12T09:35:10.358Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "MODULE_REGISTERED",
+      "targetSerial": "RT-005",
+      "details": "Registered hardware unit RT-005 (v1.2.5-ESP32) into stock.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1012",
+      "timestamp": "2026-11-12T09:31:57.277Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "ADMIN_LOGIN",
+      "targetSerial": "SYSTEM",
+      "details": "Administrator signed in to the provisioning portal.",
+      "ipAddress": "::1"
+    },
     {
       "id": "AUD-1011",
       "timestamp": "2026-11-12T09:07:48.074Z",
