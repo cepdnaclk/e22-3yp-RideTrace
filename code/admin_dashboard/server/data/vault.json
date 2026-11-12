@@ -1,0 +1,173 @@
+{
+  "modules": [
+    {
+      "serial": "RT-001",
+      "hardwarePin": "4829",
+      "bikeMake": "Yamaha",
+      "bikeModel": "FZ Version 2.0",
+      "engineCc": 149,
+      "firmwareVersion": "v1.2.4-ESP32",
+      "status": "ACTIVE",
+      "ownerName": "Danuja Chandrasena",
+      "ownerEmail": "danuja@gmail.com",
+      "emergencyPhone": "0771234567",
+      "activationToken": "849201",
+      "tokenExpiresAt": "2026-10-30T10:00:00.000Z",
+      "createdAt": "2026-10-28T09:15:00.000Z",
+      "updatedAt": "2026-10-29T14:22:10.000Z",
+      "verifiedAt": "2026-10-29T14:22:10.000Z"
+    },
+    {
+      "serial": "RT-002",
+      "hardwarePin": "7104",
+      "bikeMake": "Honda",
+      "bikeModel": "CB Hornet 160R",
+      "engineCc": 162,
+      "firmwareVersion": "v1.2.4-ESP32",
+      "status": "ACTIVE",
+      "ownerName": "Kavindu Perera",
+      "ownerEmail": "kavindu.perera@gmail.com",
+      "emergencyPhone": "0719876543",
+      "activationToken": "593812",
+      "tokenExpiresAt": "2026-11-05T22:30:00.000Z",
+      "createdAt": "2026-11-03T11:20:00.000Z",
+      "updatedAt": "2026-11-04T17:44:36.363Z",
+      "verifiedAt": "2026-11-04T17:44:36.363Z"
+    },
+    {
+      "serial": "RT-003",
+      "hardwarePin": "3391",
+      "bikeMake": "Bajaj",
+      "bikeModel": "Pulsar 150 Twin Disc",
+      "engineCc": 149,
+      "firmwareVersion": "v1.2.5-ESP32",
+      "status": "ACTIVE",
+      "ownerName": "Danuja Nirodhana",
+      "ownerEmail": "chandrasenadn@gmail.com",
+      "emergencyPhone": "0707032248",
+      "activationToken": "693117",
+      "tokenExpiresAt": "2026-11-05T17:45:50.090Z",
+      "createdAt": "2026-11-04T15:00:00.000Z",
+      "updatedAt": "2026-11-05T07:08:24.284Z",
+      "verifiedAt": "2026-11-05T07:08:24.284Z"
+    },
+    {
+      "serial": "RT-004",
+      "hardwarePin": "9052",
+      "bikeMake": "TVS",
+      "bikeModel": "Apache RTR 160 4V",
+      "engineCc": 159,
+      "firmwareVersion": "v1.2.5-ESP32",
+      "status": "UNASSIGNED",
+      "ownerName": null,
+      "ownerEmail": null,
+      "emergencyPhone": null,
+      "activationToken": null,
+      "tokenExpiresAt": null,
+      "createdAt": "2026-11-04T16:45:00.000Z",
+      "updatedAt": "2026-11-04T16:45:00.000Z",
+      "verifiedAt": null
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "AUD-1011",
+      "timestamp": "2026-11-12T09:07:48.074Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "ADMIN_LOGIN",
+      "targetSerial": "SYSTEM",
+      "details": "Administrator signed in to the provisioning portal.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1010",
+      "timestamp": "2026-11-06T05:12:24.249Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "ADMIN_LOGIN",
+      "targetSerial": "SYSTEM",
+      "details": "Administrator signed in to the provisioning portal.",
+      "ipAddress": "::1"
+    },
+    {
+      "id": "AUD-1009",
+      "timestamp": "2026-11-05T07:09:51.610Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "ADMIN_LOGIN",
+      "targetSerial": "SYSTEM",
+      "details": "Administrator signed in to the provisioning portal.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "AUD-1008",
+      "timestamp": "2026-11-05T07:08:24.289Z",
+      "actor": "chandrasenadn@gmail.com",
+      "action": "OWNERSHIP_VERIFIED",
+      "targetSerial": "RT-003",
+      "details": "Ownership verified by customer. Status updated to Active.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "AUD-1012",
+      "timestamp": "2026-11-05T07:04:53.085Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "CUSTOMER_ASSIGNED",
+      "targetSerial": "RT-006",
+      "details": "Assigned RT-006 to chandrasenadn@gmail.com (Danuja Nirodhana). Verification code dispatched.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "AUD-1011",
+      "timestamp": "2026-11-05T07:04:42.025Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "MODULE_REGISTERED",
+      "targetSerial": "RT-006",
+      "details": "Registered hardware unit RT-006 (Yamaha FZ Version 2.0 150cc) into stock.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "AUD-1013",
+      "timestamp": "2026-11-05T06:59:50.430Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "OWNERSHIP_REVOKED",
+      "targetSerial": "RT-005",
+      "details": "Ownership revoked from e22054@eng.pdn.ac.lk. Device returned to unassigned stock.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "AUD-1012",
+      "timestamp": "2026-11-05T06:59:35.383Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "CUSTOMER_ASSIGNED",
+      "targetSerial": "RT-005",
+      "details": "Assigned RT-005 to e22054@eng.pdn.ac.lk (K.D.N.Chandrasena). Verification code dispatched.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "AUD-1011",
+      "timestamp": "2026-11-05T06:59:18.525Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "MODULE_REGISTERED",
+      "targetSerial": "RT-005",
+      "details": "Registered hardware unit RT-005 (Yamaha FZ Version 2.0 150cc) into stock.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "AUD-1010",
+      "timestamp": "2026-11-05T06:55:39.447Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "ADMIN_LOGIN",
+      "targetSerial": "SYSTEM",
+      "details": "Administrator signed in to the provisioning portal.",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "AUD-1008",
+      "timestamp": "2026-11-04T17:45:50.096Z",
+      "actor": "admin@ridetrace.lk",
+      "action": "CUSTOMER_ASSIGNED",
+      "targetSerial": "RT-003",
+      "details": "Assigned RT-003 to chandrasenadn@gmail.com (Danuja Nirodhana). Verification code dispatched.",
+      "ipAddress": "127.0.0.1"
+    }
+  ]
+}
